@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: hsl(217, 50%, 23%);
+}
+
+input {
+    padding: .5em;
+    text-align: center;
+    border: none;
+    background-color: hsl(0, 0%, 80%);
+}
+
+::placeholder {
+    color: hsl(217, 50%, 23%);
+}
+
+#btn {
+    padding: .5em;
+    border: none;
+    font-weight: 600;
+    color: inherit;
+    background-color: hsl(0, 0%, 56%);
+}
