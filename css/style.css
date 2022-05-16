@@ -17,7 +17,12 @@ input {
     padding: .5em;
     text-align: center;
     border: none;
+    border-radius: 12px;
     background-color: hsl(0, 0%, 80%);
+}
+
+input:focus {
+    outline: none;
 }
 
 ::placeholder {
@@ -27,6 +32,7 @@ input {
 #btn {
     padding: .5em;
     border: none;
+    border-radius: 12px;
     font-weight: 600;
     color: inherit;
     background-color: hsl(0, 0%, 56%);
